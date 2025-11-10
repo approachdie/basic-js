@@ -16,9 +16,9 @@ const { NotImplementedError } = require("../lib");
  *
  */
 
-function repeater(str, options) {
-  if (options < 0) return "";
-  return str.repeat(options);
+function repeater(/* str, options */) {
+  // Remove line below and write your code here
+  throw new NotImplementedError("Not implemented");
 }
 
 module.exports = {
